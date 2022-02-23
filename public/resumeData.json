@@ -2,17 +2,17 @@
   "main": {
     "name": "Gabriel Sadigursky",
     "occupation": "Web Developer",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description": "Growed up in a programming and robotics environment, in 2020 I decided to jump into Web Dev, I learned several languages and mainly to find solutions",
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "gabriel.sadigursky@gmail.com",
     "phone": "55 51 997600101",
     "address": {
-      "street": "8010 East Drive",
-      "city": "North Bay Village",
-      "state": "Florida",
-      "zip": "33141"
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
     },
     "website": "http://www.gabrieldev.com",
     "resumedownload": "http://gabrieldev.com",
