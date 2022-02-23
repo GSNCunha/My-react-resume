@@ -5,6 +5,7 @@ class Resume extends Component {
 
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
+      var languagesmessage = this.props.data.languagesmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -20,6 +21,11 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      var languages = this.props.data.languages.map(function(languages){
+        var className = 'bar-expand '+languages.name.toLowerCase();
+        return <li key={languages.name}><span style={{width:languages.level}}className={className}></span><em>{languages.name}</em></li>
+      })
+      
     }
 
     return (
@@ -72,6 +78,25 @@ class Resume extends Component {
 			</div>
       </div>
 
+      
+      <div className="row languages">
+
+         <div className="three columns header-col">
+            <h1><span>Languages</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+
+            <p>{languagesmessage}
+            </p>
+
+				<div className="bars">
+				   <ul className="languages">
+					  {languages}
+					</ul>
+				</div>
+			</div>
+      </div>
 
    </section>
     );
