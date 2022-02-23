@@ -6,13 +6,11 @@
     "image": "profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "gabriel.sadigursky@gmail.com",
+    "email": "Gabriel.sadigursky@gmail.com",
     "phone": "55 51 997600101",
     "address": {
-      "street": "",
-      "city": "",
-      "state": "",
-      "zip": ""
+      "city": "North bay Village",
+      "state": "Florida"
     },
     "website": "http://www.gabrieldev.com",
     "resumedownload": "http://gabrieldev.com",

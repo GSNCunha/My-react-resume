@@ -1,16 +1,34 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faInstagram,
+  faReddit,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 class Header extends Component {
   render() {
+
+   var socialnetworks = [
+      <FontAwesomeIcon icon={faLinkedin} />,
+      <FontAwesomeIcon icon={faInstagram} />,
+      <FontAwesomeIcon icon={faGithub} />,
+      <FontAwesomeIcon icon={faReddit} />,
+    ];
 
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
+      var networks = this.props.data.social.map(function (network, i) {
+         return (
+           <li key={network.name}>
+             <a href={network.url}>{socialnetworks[i]}</a>
+           </li>
+         );
+       });
     }
 
     return (
