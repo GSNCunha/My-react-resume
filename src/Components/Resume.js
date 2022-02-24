@@ -29,7 +29,28 @@ class Resume extends Component {
     }
 
     return (
+
+      
       <section id="resume">
+
+        <div className="row skill">
+
+        <div className="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
+
+        <div className="nine columns main-col">
+
+          <p>{skillmessage}
+          </p>
+
+        <div className="bars">
+          <ul className="skills">
+          {skills}
+        </ul>
+        </div>
+        </div>
+        </div>
 
       <div className="row education">
          <div className="three columns header-col">
@@ -57,45 +78,23 @@ class Resume extends Component {
         </div>
     </div>
 
+    <div className="row languages">
 
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+      <div className="three columns header-col">
+        <h1><span>Languages</span></h1>
       </div>
 
-      
-      <div className="row languages">
+      <div className="nine columns main-col">
 
-         <div className="three columns header-col">
-            <h1><span>Languages</span></h1>
-         </div>
+        <p>{languagesmessage}
+        </p>
 
-         <div className="nine columns main-col">
-
-            <p>{languagesmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="languages">
-					  {languages}
-					</ul>
-				</div>
-			</div>
+      <div className="bars">
+        <ul className="languages">
+        {languages}
+      </ul>
+      </div>
+      </div>
       </div>
 
    </section>

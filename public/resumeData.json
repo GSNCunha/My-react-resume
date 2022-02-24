@@ -45,27 +45,21 @@
         "school": "Control and Automation Engineering at UFGRS",
         "degree": "bachelor degree",
         "graduated": "June 2025",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Learn time management and soft skills"
       },
       {
         "school": "Sinodal",
         "degree": "Robotics and Entrepreneurship",
         "graduated": "December 2019",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "learn programming logic, teamwork, Entrepreneurship and persistence"
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "junior company",
+        "title": "advisor and consultant",
+        "years": "jun 2021 - jan 2022",
+        "description": "I worked advisoring the administration and finance, and beeing a SDR"
       }
     ],
     "skills": [
@@ -133,34 +127,16 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Functional JavaScrip Calculator!",
+        "category": "A calculator that works fully with Functional JavaScript",
+        "image": "Functional-Calculator.jpg",
+        "url": "https://github.com/GSNCunha/Functional-JS-Calculator"
       },
       {
         "title": "Resume Website",
-        "category": "A React based resume website template",
+        "category": "(offline now) A fighting gear company I started",
         "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "url": "https://gsncunha.github.io/react-resume-template/"
       }
     ]
   },
